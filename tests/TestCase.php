@@ -1,9 +1,9 @@
 <?php
 
-namespace Glhd\LaravelDumper\Tests;
+namespace Captenmasin\LaravelDumper\Tests;
 
-use Glhd\LaravelDumper\Casters\Caster;
-use Glhd\LaravelDumper\LaravelDumperServiceProvider;
+use Captenmasin\LaravelDumper\Casters\Caster;
+use Captenmasin\LaravelDumper\LaravelDumperServiceProvider;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
 use Orchestra\Testbench\TestCase as Orchestra;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Glhd\LaravelDumper\Casters;
+namespace Captenmasin\LaravelDumper\Casters;
 
 use Carbon\CarbonInterface;
-use Glhd\LaravelDumper\Support\Properties;
+use Captenmasin\LaravelDumper\Support\Properties;
 use Symfony\Component\VarDumper\Cloner\Stub;
 
 class CarbonCaster extends Caster
@@ -12,7 +12,7 @@ class CarbonCaster extends Caster
 	
 	/**
 	 * @param CarbonInterface $target
-	 * @param \Glhd\LaravelDumper\Support\Properties $properties
+	 * @param \Captenmasin\LaravelDumper\Support\Properties $properties
 	 * @param \Symfony\Component\VarDumper\Cloner\Stub $stub
 	 * @param bool $is_nested
 	 * @param int $filter

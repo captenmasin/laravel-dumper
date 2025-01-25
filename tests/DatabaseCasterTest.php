@@ -1,6 +1,6 @@
 <?php
 
-namespace Glhd\LaravelDumper\Tests;
+namespace Captenmasin\LaravelDumper\Tests;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -52,7 +52,7 @@ class DatabaseCasterTest extends TestCase
 		$this->assertMatchesRegularExpression('/\s*…\d+\n}$/', $dump);
 	}
 	
-	/** @see https://github.com/glhd/laravel-dumper/issues/6 */
+	/** @see https://github.com/captenmasin/laravel-dumper/issues/6 */
 	public function test_where_between_statement(): void
 	{
 		$builder = User::where('name', 'test')

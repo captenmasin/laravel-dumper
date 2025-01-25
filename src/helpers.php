@@ -1,6 +1,6 @@
 <?php
 
-use Glhd\LaravelDumper\Casters\Caster;
+use Captenmasin\LaravelDumper\Casters\Caster;
 
 if (! function_exists('ddf')) {
 	function ddf(...$vars)

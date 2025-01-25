@@ -199,17 +199,17 @@
 -              #bootingCallbacks: []
 -              #bootedCallbacks: []
 -            }
--            15 => Glhd\LaravelDumper\LaravelDumperServiceProvider {
+-            15 => Captenmasin\LaravelDumper\LaravelDumperServiceProvider {
 -              #casters: array:9 [
--                0 => "Glhd\LaravelDumper\Casters\ContainerCaster"
--                1 => "Glhd\LaravelDumper\Casters\ModelCaster"
--                2 => "Glhd\LaravelDumper\Casters\BuilderCaster"
--                3 => "Glhd\LaravelDumper\Casters\DatabaseConnectionCaster"
--                4 => "Glhd\LaravelDumper\Casters\CarbonCaster"
--                5 => "Glhd\LaravelDumper\Casters\RequestCaster"
--                6 => "Glhd\LaravelDumper\Casters\ParameterBagCaster"
--                7 => "Glhd\LaravelDumper\Casters\HeaderBagCaster"
--                8 => "Glhd\LaravelDumper\Casters\ResponseCaster"
+-                0 => "Captenmasin\LaravelDumper\Casters\ContainerCaster"
+-                1 => "Captenmasin\LaravelDumper\Casters\ModelCaster"
+-                2 => "Captenmasin\LaravelDumper\Casters\BuilderCaster"
+-                3 => "Captenmasin\LaravelDumper\Casters\DatabaseConnectionCaster"
+-                4 => "Captenmasin\LaravelDumper\Casters\CarbonCaster"
+-                5 => "Captenmasin\LaravelDumper\Casters\RequestCaster"
+-                6 => "Captenmasin\LaravelDumper\Casters\ParameterBagCaster"
+-                7 => "Captenmasin\LaravelDumper\Casters\HeaderBagCaster"
+-                8 => "Captenmasin\LaravelDumper\Casters\ResponseCaster"
 -              ]
 -              #app: Illuminate\Foundation\Application {#5}
 -              #bootingCallbacks: []
@@ -408,7 +408,7 @@
 -            "Illuminate\Pagination\PaginationServiceProvider" => true
 -            "Illuminate\Session\SessionServiceProvider" => true
 -            "Illuminate\View\ViewServiceProvider" => true
--            "Glhd\LaravelDumper\LaravelDumperServiceProvider" => true
+-            "Captenmasin\LaravelDumper\LaravelDumperServiceProvider" => true
 -            "Illuminate\Broadcasting\BroadcastServiceProvider" => true
 -            "Illuminate\Bus\BusServiceProvider" => true
 -            "Illuminate\Cache\CacheServiceProvider" => true
@@ -555,9 +555,9 @@
 -            "Illuminate\Console\OutputStyle" => true
 -            "db.transactions" => true
 -            "Illuminate\Database\Schema\Blueprint" => true
--            "Glhd\LaravelDumper\Casters\BuilderCaster" => true
--            "Glhd\LaravelDumper\Casters\ModelCaster" => true
--            "Glhd\LaravelDumper\Casters\DatabaseConnectionCaster" => true
+-            "Captenmasin\LaravelDumper\Casters\BuilderCaster" => true
+-            "Captenmasin\LaravelDumper\Casters\ModelCaster" => true
+-            "Captenmasin\LaravelDumper\Casters\DatabaseConnectionCaster" => true
 -          ]
 -          #bindings: array:172 [
 -            "Illuminate\Foundation\Mix" => array:2 [
@@ -961,117 +961,117 @@
 -              }
 -              "shared" => true
 -            ]
--            "Glhd\LaravelDumper\Casters\ContainerCaster" => array:2 [
+-            "Captenmasin\LaravelDumper\Casters\ContainerCaster" => array:2 [
 -              "concrete" => Closure($container, $parameters = []) {
 -                class: "Illuminate\Container\Container"
 -                this: Illuminate\Foundation\Application {#5}
 -                use: {
--                  $abstract: "Glhd\LaravelDumper\Casters\ContainerCaster"
--                  $concrete: "Glhd\LaravelDumper\Casters\ContainerCaster"
+-                  $abstract: "Captenmasin\LaravelDumper\Casters\ContainerCaster"
+-                  $concrete: "Captenmasin\LaravelDumper\Casters\ContainerCaster"
 -                }
 -                file: "./vendor/laravel/framework/src/Illuminate/Container/Container.php"
 -                line: "290 to 298"
 -              }
 -              "shared" => true
 -            ]
--            "Glhd\LaravelDumper\Casters\ModelCaster" => array:2 [
+-            "Captenmasin\LaravelDumper\Casters\ModelCaster" => array:2 [
 -              "concrete" => Closure($container, $parameters = []) {
 -                class: "Illuminate\Container\Container"
 -                this: Illuminate\Foundation\Application {#5}
 -                use: {
--                  $abstract: "Glhd\LaravelDumper\Casters\ModelCaster"
--                  $concrete: "Glhd\LaravelDumper\Casters\ModelCaster"
+-                  $abstract: "Captenmasin\LaravelDumper\Casters\ModelCaster"
+-                  $concrete: "Captenmasin\LaravelDumper\Casters\ModelCaster"
 -                }
 -                file: "./vendor/laravel/framework/src/Illuminate/Container/Container.php"
 -                line: "290 to 298"
 -              }
 -              "shared" => true
 -            ]
--            "Glhd\LaravelDumper\Casters\BuilderCaster" => array:2 [
+-            "Captenmasin\LaravelDumper\Casters\BuilderCaster" => array:2 [
 -              "concrete" => Closure($container, $parameters = []) {
 -                class: "Illuminate\Container\Container"
 -                this: Illuminate\Foundation\Application {#5}
 -                use: {
--                  $abstract: "Glhd\LaravelDumper\Casters\BuilderCaster"
--                  $concrete: "Glhd\LaravelDumper\Casters\BuilderCaster"
+-                  $abstract: "Captenmasin\LaravelDumper\Casters\BuilderCaster"
+-                  $concrete: "Captenmasin\LaravelDumper\Casters\BuilderCaster"
 -                }
 -                file: "./vendor/laravel/framework/src/Illuminate/Container/Container.php"
 -                line: "290 to 298"
 -              }
 -              "shared" => true
 -            ]
--            "Glhd\LaravelDumper\Casters\DatabaseConnectionCaster" => array:2 [
+-            "Captenmasin\LaravelDumper\Casters\DatabaseConnectionCaster" => array:2 [
 -              "concrete" => Closure($container, $parameters = []) {
 -                class: "Illuminate\Container\Container"
 -                this: Illuminate\Foundation\Application {#5}
 -                use: {
--                  $abstract: "Glhd\LaravelDumper\Casters\DatabaseConnectionCaster"
--                  $concrete: "Glhd\LaravelDumper\Casters\DatabaseConnectionCaster"
+-                  $abstract: "Captenmasin\LaravelDumper\Casters\DatabaseConnectionCaster"
+-                  $concrete: "Captenmasin\LaravelDumper\Casters\DatabaseConnectionCaster"
 -                }
 -                file: "./vendor/laravel/framework/src/Illuminate/Container/Container.php"
 -                line: "290 to 298"
 -              }
 -              "shared" => true
 -            ]
--            "Glhd\LaravelDumper\Casters\CarbonCaster" => array:2 [
+-            "Captenmasin\LaravelDumper\Casters\CarbonCaster" => array:2 [
 -              "concrete" => Closure($container, $parameters = []) {
 -                class: "Illuminate\Container\Container"
 -                this: Illuminate\Foundation\Application {#5}
 -                use: {
--                  $abstract: "Glhd\LaravelDumper\Casters\CarbonCaster"
--                  $concrete: "Glhd\LaravelDumper\Casters\CarbonCaster"
+-                  $abstract: "Captenmasin\LaravelDumper\Casters\CarbonCaster"
+-                  $concrete: "Captenmasin\LaravelDumper\Casters\CarbonCaster"
 -                }
 -                file: "./vendor/laravel/framework/src/Illuminate/Container/Container.php"
 -                line: "290 to 298"
 -              }
 -              "shared" => true
 -            ]
--            "Glhd\LaravelDumper\Casters\RequestCaster" => array:2 [
+-            "Captenmasin\LaravelDumper\Casters\RequestCaster" => array:2 [
 -              "concrete" => Closure($container, $parameters = []) {
 -                class: "Illuminate\Container\Container"
 -                this: Illuminate\Foundation\Application {#5}
 -                use: {
--                  $abstract: "Glhd\LaravelDumper\Casters\RequestCaster"
--                  $concrete: "Glhd\LaravelDumper\Casters\RequestCaster"
+-                  $abstract: "Captenmasin\LaravelDumper\Casters\RequestCaster"
+-                  $concrete: "Captenmasin\LaravelDumper\Casters\RequestCaster"
 -                }
 -                file: "./vendor/laravel/framework/src/Illuminate/Container/Container.php"
 -                line: "290 to 298"
 -              }
 -              "shared" => true
 -            ]
--            "Glhd\LaravelDumper\Casters\ParameterBagCaster" => array:2 [
+-            "Captenmasin\LaravelDumper\Casters\ParameterBagCaster" => array:2 [
 -              "concrete" => Closure($container, $parameters = []) {
 -                class: "Illuminate\Container\Container"
 -                this: Illuminate\Foundation\Application {#5}
 -                use: {
--                  $abstract: "Glhd\LaravelDumper\Casters\ParameterBagCaster"
--                  $concrete: "Glhd\LaravelDumper\Casters\ParameterBagCaster"
+-                  $abstract: "Captenmasin\LaravelDumper\Casters\ParameterBagCaster"
+-                  $concrete: "Captenmasin\LaravelDumper\Casters\ParameterBagCaster"
 -                }
 -                file: "./vendor/laravel/framework/src/Illuminate/Container/Container.php"
 -                line: "290 to 298"
 -              }
 -              "shared" => true
 -            ]
--            "Glhd\LaravelDumper\Casters\HeaderBagCaster" => array:2 [
+-            "Captenmasin\LaravelDumper\Casters\HeaderBagCaster" => array:2 [
 -              "concrete" => Closure($container, $parameters = []) {
 -                class: "Illuminate\Container\Container"
 -                this: Illuminate\Foundation\Application {#5}
 -                use: {
--                  $abstract: "Glhd\LaravelDumper\Casters\HeaderBagCaster"
--                  $concrete: "Glhd\LaravelDumper\Casters\HeaderBagCaster"
+-                  $abstract: "Captenmasin\LaravelDumper\Casters\HeaderBagCaster"
+-                  $concrete: "Captenmasin\LaravelDumper\Casters\HeaderBagCaster"
 -                }
 -                file: "./vendor/laravel/framework/src/Illuminate/Container/Container.php"
 -                line: "290 to 298"
 -              }
 -              "shared" => true
 -            ]
--            "Glhd\LaravelDumper\Casters\ResponseCaster" => array:2 [
+-            "Captenmasin\LaravelDumper\Casters\ResponseCaster" => array:2 [
 -              "concrete" => Closure($container, $parameters = []) {
 -                class: "Illuminate\Container\Container"
 -                this: Illuminate\Foundation\Application {#5}
 -                use: {
--                  $abstract: "Glhd\LaravelDumper\Casters\ResponseCaster"
--                  $concrete: "Glhd\LaravelDumper\Casters\ResponseCaster"
+-                  $abstract: "Captenmasin\LaravelDumper\Casters\ResponseCaster"
+-                  $concrete: "Captenmasin\LaravelDumper\Casters\ResponseCaster"
 -                }
 -                file: "./vendor/laravel/framework/src/Illuminate/Container/Container.php"
 -                line: "290 to 298"
@@ -2221,7 +2221,7 @@
 -            "app" => Illuminate\Foundation\Application {#5}
 -            "Illuminate\Container\Container" => Illuminate\Foundation\Application {#5}
 -            "Illuminate\Foundation\PackageManifest" => Orchestra\Testbench\Foundation\PackageManifest {
--              #testbench: Glhd\LaravelDumper\Tests\DatabaseCasterTest {#35
+-              #testbench: Captenmasin\LaravelDumper\Tests\DatabaseCasterTest {#35
 -                #write_diff_if_configured: true
 -                #diff_count: 0
 -                #baseUrl: "http://localhost"
@@ -2235,7 +2235,7 @@
 -                #preserveGlobalState: true
 -                #providedTests: array:1 [
 -                  0 => PHPUnit\Framework\ExecutionOrderDependency {
--                    -className: "Glhd\LaravelDumper\Tests\DatabaseCasterTest"
+-                    -className: "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest"
 -                    -methodName: "test_eloquent_builder"
 -                    -useShallowClone: false
 -                    -useDeepClone: false
@@ -2261,50 +2261,50 @@
 -                -numAssertions: 0
 -                -result: PHPUnit\Framework\TestResult {
 -                  -passed: array:10 [
--                    "Glhd\LaravelDumper\Tests\CasterTest::test_carbon_date" => array:2 [
+-                    "Captenmasin\LaravelDumper\Tests\CasterTest::test_carbon_date" => array:2 [
 -                      "result" => null
 -                      "size" => -1
 -                    ]
--                    "Glhd\LaravelDumper\Tests\CasterTest::test_package_can_be_disabled" => array:2 [
+-                    "Captenmasin\LaravelDumper\Tests\CasterTest::test_package_can_be_disabled" => array:2 [
 -                      "result" => null
 -                      "size" => -1
 -                    ]
--                    "Glhd\LaravelDumper\Tests\CasterTest::test_container" => array:2 [
+-                    "Captenmasin\LaravelDumper\Tests\CasterTest::test_container" => array:2 [
 -                      "result" => null
 -                      "size" => -1
 -                    ]
--                    "Glhd\LaravelDumper\Tests\CasterTest::test_container_nested" => array:2 [
+-                    "Captenmasin\LaravelDumper\Tests\CasterTest::test_container_nested" => array:2 [
 -                      "result" => null
 -                      "size" => -1
 -                    ]
--                    "Glhd\LaravelDumper\Tests\CasterTest::test_request" => array:2 [
+-                    "Captenmasin\LaravelDumper\Tests\CasterTest::test_request" => array:2 [
 -                      "result" => null
 -                      "size" => -1
 -                    ]
--                    "Glhd\LaravelDumper\Tests\CasterTest::test_response" => array:2 [
+-                    "Captenmasin\LaravelDumper\Tests\CasterTest::test_response" => array:2 [
 -                      "result" => null
 -                      "size" => -1
 -                    ]
--                    "Glhd\LaravelDumper\Tests\CustomCasterTest::test_custom_caster" => array:2 [
+-                    "Captenmasin\LaravelDumper\Tests\CustomCasterTest::test_custom_caster" => array:2 [
 -                      "result" => null
 -                      "size" => -1
 -                    ]
--                    "Glhd\LaravelDumper\Tests\CustomCasterTest::test_custom_casters_cannot_be_registered" => array:2 [
+-                    "Captenmasin\LaravelDumper\Tests\CustomCasterTest::test_custom_casters_cannot_be_registered" => array:2 [
 -                      "result" => null
 -                      "size" => -1
 -                    ]
--                    "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_eloquent_model" => array:2 [
+-                    "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_eloquent_model" => array:2 [
 -                      "result" => null
 -                      "size" => -1
 -                    ]
--                    "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_query_builder" => array:2 [
+-                    "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_query_builder" => array:2 [
 -                      "result" => null
 -                      "size" => -1
 -                    ]
 -                  ]
 -                  -passedTestClasses: array:2 [
--                    0 => "Glhd\LaravelDumper\Tests\CasterTest"
--                    1 => "Glhd\LaravelDumper\Tests\CustomCasterTest"
+-                    0 => "Captenmasin\LaravelDumper\Tests\CasterTest"
+-                    1 => "Captenmasin\LaravelDumper\Tests\CustomCasterTest"
 -                  ]
 -                  -currentTestSuiteFailed: false
 -                  -errors: []
@@ -2320,78 +2320,78 @@
 -                          -cache: PHPUnit\Runner\DefaultTestResultCache {
 -                            -cacheFilename: "/Users/inxilpro/Development/open-source/laravel-dumper/.phpunit.result.cache"
 -                            -defects: array:27 [
--                              "Glhd\LaravelDumper\Tests\LaravelCastsTest::test_it_cuts_the_internals_from_the_container" => 3
--                              "Glhd\LaravelDumper\Tests\LaravelCastsTest::test_it_cuts_most_internals_from_a_container" => 3
--                              "Glhd\LaravelDumper\Tests\ModelCastTest::test_model" => 3
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_pushes_carbon_date_to_top" => 3
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_cuts_most_internals_from_a_container" => 4
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_cuts_all_internals_from_a_nested_container" => 4
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_it_casts_eloquent_models" => 4
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_it_dumps_basic_query_builders" => 4
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_it_dumps_eloquent_query_builders" => 4
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_it_dumps_eloquent_relations" => 4
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_handles_debuginfo" => 5
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_casts_carbon_instances" => 4
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_cuts_internals_from_dispatcher" => 3
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_dumps_a_response" => 4
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_it_formats_very_long_sql" => 3
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_dumps_a_request" => 4
--                              "Glhd\LaravelDumper\Tests\ParametersTest::test_reordering_parameters" => 3
--                              "Glhd\LaravelDumper\Tests\ParametersTest::test_only_keeping_specific_parameters" => 3
--                              "Glhd\LaravelDumper\Tests\ParametersTest::test_excluding_specific_parameters" => 3
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_carbon_date" => 4
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_container" => 3
--                              "Glhd\LaravelDumper\Tests\PropertiesTest::test_has_method" => 3
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_request" => 3
--                              "Glhd\LaravelDumper\Tests\CustomCasterTest::test_custom_caster" => 4
--                              "Glhd\LaravelDumper\Tests\ServiceProviderTest::test_it_only_loads_in_development" => 3
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_package_can_be_disabled" => 3
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_unexpected_database_connections" => 3
+-                              "Captenmasin\LaravelDumper\Tests\LaravelCastsTest::test_it_cuts_the_internals_from_the_container" => 3
+-                              "Captenmasin\LaravelDumper\Tests\LaravelCastsTest::test_it_cuts_most_internals_from_a_container" => 3
+-                              "Captenmasin\LaravelDumper\Tests\ModelCastTest::test_model" => 3
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_pushes_carbon_date_to_top" => 3
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_cuts_most_internals_from_a_container" => 4
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_cuts_all_internals_from_a_nested_container" => 4
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_it_casts_eloquent_models" => 4
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_it_dumps_basic_query_builders" => 4
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_it_dumps_eloquent_query_builders" => 4
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_it_dumps_eloquent_relations" => 4
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_handles_debuginfo" => 5
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_casts_carbon_instances" => 4
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_cuts_internals_from_dispatcher" => 3
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_dumps_a_response" => 4
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_it_formats_very_long_sql" => 3
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_dumps_a_request" => 4
+-                              "Captenmasin\LaravelDumper\Tests\ParametersTest::test_reordering_parameters" => 3
+-                              "Captenmasin\LaravelDumper\Tests\ParametersTest::test_only_keeping_specific_parameters" => 3
+-                              "Captenmasin\LaravelDumper\Tests\ParametersTest::test_excluding_specific_parameters" => 3
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_carbon_date" => 4
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_container" => 3
+-                              "Captenmasin\LaravelDumper\Tests\PropertiesTest::test_has_method" => 3
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_request" => 3
+-                              "Captenmasin\LaravelDumper\Tests\CustomCasterTest::test_custom_caster" => 4
+-                              "Captenmasin\LaravelDumper\Tests\ServiceProviderTest::test_it_only_loads_in_development" => 3
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_package_can_be_disabled" => 3
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_unexpected_database_connections" => 3
 -                            ]
 -                            -times: array:43 [
--                              "Glhd\LaravelDumper\Tests\LaravelCastsTest::test_it_cuts_the_internals_from_the_container" => 0.103
--                              "Glhd\LaravelDumper\Tests\LaravelCastsTest::test_it_cuts_most_internals_from_a_container" => 0.06
--                              "Glhd\LaravelDumper\Tests\ModelCastTest::test_model" => 0.146
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_pushes_carbon_date_to_top" => 0.06
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_cuts_most_internals_from_a_container" => 0.024
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_cuts_all_internals_from_a_nested_container" => 0.021
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_it_casts_eloquent_models" => 0.111
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_it_dumps_basic_query_builders" => 0.305
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_it_dumps_eloquent_query_builders" => 0.29
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_it_dumps_eloquent_relations" => 0.297
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_handles_debuginfo" => 0.012
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_casts_carbon_instances" => 0.071
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_cuts_internals_from_dispatcher" => 0.057
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_dumps_a_response" => 0.024
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_it_formats_very_long_sql" => 0.138
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_it_dumps_a_request" => 0.025
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_carbon_date" => 0.07
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_container" => 0.024
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_container_nested" => 0.022
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_request" => 0.026
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_response" => 0.024
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_eloquent_model" => 0.115
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_query_builder" => 0.297
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_eloquent_builder" => 0.307
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_eloquent_relation" => 0.302
--                              "Glhd\LaravelDumper\Tests\ParametersTest::test_reordering_parameters" => 0.056
--                              "Glhd\LaravelDumper\Tests\ParametersTest::test_only_keeping_specific_parameters" => 0.055
--                              "Glhd\LaravelDumper\Tests\ParametersTest::test_excluding_specific_parameters" => 0.057
--                              "Glhd\LaravelDumper\Tests\PropertiesTest::test_has_method" => 0.012
--                              "Glhd\LaravelDumper\Tests\PropertiesTest::test_reordering_parameters" => 0.013
--                              "Glhd\LaravelDumper\Tests\PropertiesTest::test_only_keeping_specific_parameters" => 0.012
--                              "Glhd\LaravelDumper\Tests\PropertiesTest::test_excluding_specific_parameters" => 0.012
--                              "Glhd\LaravelDumper\Tests\CustomCasterTest::test_custom_caster" => 0.031
--                              "Glhd\LaravelDumper\Tests\ServiceProviderTest::test_it_loads_helper_functions" => 0.058
--                              "Glhd\LaravelDumper\Tests\ServiceProviderTest::test_it_only_loads_in_development" => 0.059
--                              "Glhd\LaravelDumper\Tests\CasterTest::test_package_can_be_disabled" => 0.102
--                              "Glhd\LaravelDumper\Tests\PropertiesTest::test_cut_methods" => 0.012
--                              "Glhd\LaravelDumper\Tests\PropertiesTest::test_get_methods" => 0.012
--                              "Glhd\LaravelDumper\Tests\PropertiesTest::test_copy_methods" => 0.012
--                              "Glhd\LaravelDumper\Tests\PropertiesTest::test_copy_and_cut_methods" => 0.012
--                              "Glhd\LaravelDumper\Tests\PropertiesTest::test_default_filtering" => 0.012
--                              "Glhd\LaravelDumper\Tests\CustomCasterTest::test_custom_casters_cannot_be_registered" => 0.013
--                              "Glhd\LaravelDumper\Tests\DatabaseCasterTest::test_unexpected_database_connections" => 0.042
+-                              "Captenmasin\LaravelDumper\Tests\LaravelCastsTest::test_it_cuts_the_internals_from_the_container" => 0.103
+-                              "Captenmasin\LaravelDumper\Tests\LaravelCastsTest::test_it_cuts_most_internals_from_a_container" => 0.06
+-                              "Captenmasin\LaravelDumper\Tests\ModelCastTest::test_model" => 0.146
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_pushes_carbon_date_to_top" => 0.06
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_cuts_most_internals_from_a_container" => 0.024
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_cuts_all_internals_from_a_nested_container" => 0.021
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_it_casts_eloquent_models" => 0.111
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_it_dumps_basic_query_builders" => 0.305
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_it_dumps_eloquent_query_builders" => 0.29
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_it_dumps_eloquent_relations" => 0.297
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_handles_debuginfo" => 0.012
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_casts_carbon_instances" => 0.071
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_cuts_internals_from_dispatcher" => 0.057
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_dumps_a_response" => 0.024
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_it_formats_very_long_sql" => 0.138
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_it_dumps_a_request" => 0.025
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_carbon_date" => 0.07
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_container" => 0.024
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_container_nested" => 0.022
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_request" => 0.026
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_response" => 0.024
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_eloquent_model" => 0.115
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_query_builder" => 0.297
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_eloquent_builder" => 0.307
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_eloquent_relation" => 0.302
+-                              "Captenmasin\LaravelDumper\Tests\ParametersTest::test_reordering_parameters" => 0.056
+-                              "Captenmasin\LaravelDumper\Tests\ParametersTest::test_only_keeping_specific_parameters" => 0.055
+-                              "Captenmasin\LaravelDumper\Tests\ParametersTest::test_excluding_specific_parameters" => 0.057
+-                              "Captenmasin\LaravelDumper\Tests\PropertiesTest::test_has_method" => 0.012
+-                              "Captenmasin\LaravelDumper\Tests\PropertiesTest::test_reordering_parameters" => 0.013
+-                              "Captenmasin\LaravelDumper\Tests\PropertiesTest::test_only_keeping_specific_parameters" => 0.012
+-                              "Captenmasin\LaravelDumper\Tests\PropertiesTest::test_excluding_specific_parameters" => 0.012
+-                              "Captenmasin\LaravelDumper\Tests\CustomCasterTest::test_custom_caster" => 0.031
+-                              "Captenmasin\LaravelDumper\Tests\ServiceProviderTest::test_it_loads_helper_functions" => 0.058
+-                              "Captenmasin\LaravelDumper\Tests\ServiceProviderTest::test_it_only_loads_in_development" => 0.059
+-                              "Captenmasin\LaravelDumper\Tests\CasterTest::test_package_can_be_disabled" => 0.102
+-                              "Captenmasin\LaravelDumper\Tests\PropertiesTest::test_cut_methods" => 0.012
+-                              "Captenmasin\LaravelDumper\Tests\PropertiesTest::test_get_methods" => 0.012
+-                              "Captenmasin\LaravelDumper\Tests\PropertiesTest::test_copy_methods" => 0.012
+-                              "Captenmasin\LaravelDumper\Tests\PropertiesTest::test_copy_and_cut_methods" => 0.012
+-                              "Captenmasin\LaravelDumper\Tests\PropertiesTest::test_default_filtering" => 0.012
+-                              "Captenmasin\LaravelDumper\Tests\CustomCasterTest::test_custom_casters_cannot_be_registered" => 0.013
+-                              "Captenmasin\LaravelDumper\Tests\DatabaseCasterTest::test_unexpected_database_connections" => 0.042
 -                            ]
 -                          }
 -                        }
@@ -2474,7 +2474,7 @@
 -                #beforeApplicationDestroyedCallbacks: array:2 [
 -                  0 => Closure() {
 -                    class: "Orchestra\Testbench\TestCase"
--                    this: Glhd\LaravelDumper\Tests\DatabaseCasterTest {#35}
+-                    this: Captenmasin\LaravelDumper\Tests\DatabaseCasterTest {#35}
 -                    file: "./vendor/orchestra/testbench-core/src/Concerns/HandlesDatabases.php"
 -                    line: "39 to 41"
 -                  }
@@ -2614,7 +2614,7 @@
 -                    19 => "Illuminate\Translation\TranslationServiceProvider"
 -                    20 => "Illuminate\Validation\ValidationServiceProvider"
 -                    21 => "Illuminate\View\ViewServiceProvider"
--                    22 => "Glhd\LaravelDumper\LaravelDumperServiceProvider"
+-                    22 => "Captenmasin\LaravelDumper\LaravelDumperServiceProvider"
 -                  ]
 -                  "aliases" => array:38 [
 -                    "App" => "Illuminate\Support\Facades\App"
@@ -10798,8 +10798,8 @@
 -                #escapeWhenCastingToString: false
 -              }
 -            }
--            "Glhd\LaravelDumper\Casters\BuilderCaster" => Glhd\LaravelDumper\Casters\BuilderCaster {}
--            "Glhd\LaravelDumper\Casters\ModelCaster" => Glhd\LaravelDumper\Casters\ModelCaster {
+-            "Captenmasin\LaravelDumper\Casters\BuilderCaster" => Captenmasin\LaravelDumper\Casters\BuilderCaster {}
+-            "Captenmasin\LaravelDumper\Casters\ModelCaster" => Captenmasin\LaravelDumper\Casters\ModelCaster {
 -              #attribute_order: array:7 [
 -                0 => "id"
 -                1 => "*_id"
@@ -10810,7 +10810,7 @@
 -                6 => "deleted_at"
 -              ]
 -            }
--            "Glhd\LaravelDumper\Casters\DatabaseConnectionCaster" => Glhd\LaravelDumper\Casters\DatabaseConnectionCaster {}
+-            "Captenmasin\LaravelDumper\Casters\DatabaseConnectionCaster" => Captenmasin\LaravelDumper\Casters\DatabaseConnectionCaster {}
 -          ]
 -          #scopedInstances: []
 -          #aliases: array:79 [
@@ -11184,8 +11184,8 @@
 -          "Illuminate\Database\Events\MigrationsEnded" => []
 -          "Illuminate\Console\Events\CommandFinished" => []
 -          "Illuminate\Database\Events\NoPendingMigrations" => []
--          "eloquent.booting: Glhd\LaravelDumper\Tests\User" => []
--          "eloquent.booted: Glhd\LaravelDumper\Tests\User" => []
+-          "eloquent.booting: Captenmasin\LaravelDumper\Tests\User" => []
+-          "eloquent.booted: Captenmasin\LaravelDumper\Tests\User" => []
 -        ]
 -        #queueResolver: Closure() {
 -          class: "Illuminate\Events\EventServiceProvider"
@@ -11284,7 +11284,7 @@
 -    ]
 -    +useWritePdo: false
 -  }
--  #model: Glhd\LaravelDumper\Tests\User {
+-  #model: Captenmasin\LaravelDumper\Tests\User {
 -    #guarded: []
 -    #connection: null
 -    #table: null
@@ -11322,7 +11322,7 @@
 +    driver: "sqlite"
 +     …22
    }
-+  #model: Glhd\LaravelDumper\Tests\User { …}
++  #model: Captenmasin\LaravelDumper\Tests\User { …}
    #eagerLoad: array:1 [
      "company" => Closure() {
        class: "Illuminate\Database\Eloquent\Builder"

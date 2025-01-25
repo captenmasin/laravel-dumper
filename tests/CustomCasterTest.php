@@ -1,9 +1,9 @@
 <?php
 
-namespace Glhd\LaravelDumper\Tests;
+namespace Captenmasin\LaravelDumper\Tests;
 
 use BadMethodCallException;
-use Glhd\LaravelDumper\Casters\CustomCaster;
+use Captenmasin\LaravelDumper\Casters\CustomCaster;
 
 class CustomCasterTest extends TestCase
 {
@@ -21,7 +21,7 @@ class CustomCasterTest extends TestCase
 			->virtual('foo', fn() => 'bar');
 		
 		$expected = <<<EOD
-		Glhd\LaravelDumper\Tests\MyCustomObject {
+		Captenmasin\LaravelDumper\Tests\MyCustomObject {
 		  +"dyn": "this is a dynamic prop"
 		  #foo: "foo"
 		  virt: "this is a virtual prop"
@@ -32,7 +32,7 @@ class CustomCasterTest extends TestCase
 		$this->assertDumpEquals($expected, new MyCustomObject());
 		
 		$expected = <<<EOD
-		Glhd\LaravelDumper\Tests\MyOtherCustomObject {
+		Captenmasin\LaravelDumper\Tests\MyOtherCustomObject {
 		  foo: "bar"
 		}
 		EOD;

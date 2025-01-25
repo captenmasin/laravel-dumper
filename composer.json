@@ -1,14 +1,8 @@
 {
-    "name": "glhd/laravel-dumper",
+    "name": "captenmasin/laravel-dumper",
     "description": "",
     "keywords": [
         "laravel"
-    ],
-    "authors": [
-        {
-            "name": "Chris Morrell",
-            "homepage": "http://www.cmorrell.com"
-        }
     ],
     "type": "library",
     "license": "MIT",
@@ -26,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Glhd\\LaravelDumper\\": "src/"
+            "Captenmasin\\LaravelDumper\\": "src/"
         },
         "files": [
             "src/autoload.php"
@@ -37,7 +31,7 @@
             "tests/TestCase.php"
         ],
         "psr-4": {
-            "Glhd\\LaravelDumper\\Tests\\": "tests/"
+            "Captenmasin\\LaravelDumper\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -48,7 +42,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Glhd\\LaravelDumper\\LaravelDumperServiceProvider"
+                "Captenmasin\\LaravelDumper\\LaravelDumperServiceProvider"
             ]
         }
     },

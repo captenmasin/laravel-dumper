@@ -1,13 +1,13 @@
 <?php
 
 return [
-	Glhd\LaravelDumper\Casters\ContainerCaster::class,
-	Glhd\LaravelDumper\Casters\ModelCaster::class,
-	Glhd\LaravelDumper\Casters\BuilderCaster::class,
-	Glhd\LaravelDumper\Casters\DatabaseConnectionCaster::class,
-	Glhd\LaravelDumper\Casters\CarbonCaster::class,
-	Glhd\LaravelDumper\Casters\RequestCaster::class,
-	Glhd\LaravelDumper\Casters\ParameterBagCaster::class,
-	Glhd\LaravelDumper\Casters\HeaderBagCaster::class,
-	Glhd\LaravelDumper\Casters\ResponseCaster::class,
+	Captenmasin\LaravelDumper\Casters\ContainerCaster::class,
+	Captenmasin\LaravelDumper\Casters\ModelCaster::class,
+	Captenmasin\LaravelDumper\Casters\BuilderCaster::class,
+	Captenmasin\LaravelDumper\Casters\DatabaseConnectionCaster::class,
+	Captenmasin\LaravelDumper\Casters\CarbonCaster::class,
+	Captenmasin\LaravelDumper\Casters\RequestCaster::class,
+	Captenmasin\LaravelDumper\Casters\ParameterBagCaster::class,
+	Captenmasin\LaravelDumper\Casters\HeaderBagCaster::class,
+	Captenmasin\LaravelDumper\Casters\ResponseCaster::class,
 ];

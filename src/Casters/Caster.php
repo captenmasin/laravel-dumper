@@ -1,9 +1,9 @@
 <?php
 
-namespace Glhd\LaravelDumper\Casters;
+namespace Captenmasin\LaravelDumper\Casters;
 
 use Closure;
-use Glhd\LaravelDumper\Support\Properties;
+use Captenmasin\LaravelDumper\Support\Properties;
 use Illuminate\Contracts\Container\Container;
 use Symfony\Component\VarDumper\Cloner\AbstractCloner;
 use Symfony\Component\VarDumper\Cloner\Stub;

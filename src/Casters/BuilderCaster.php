@@ -1,8 +1,8 @@
 <?php
 
-namespace Glhd\LaravelDumper\Casters;
+namespace Captenmasin\LaravelDumper\Casters;
 
-use Glhd\LaravelDumper\Support\Properties;
+use Captenmasin\LaravelDumper\Support\Properties;
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Query\Builder as BaseBuilder;
@@ -22,7 +22,7 @@ class BuilderCaster extends Caster
 	
 	/**
 	 * @param BaseBuilder|EloquentBuilder|Relation $target
-	 * @param \Glhd\LaravelDumper\Support\Properties $properties
+	 * @param \Captenmasin\LaravelDumper\Support\Properties $properties
 	 * @param \Symfony\Component\VarDumper\Cloner\Stub $stub
 	 * @param bool $is_nested
 	 * @param int $filter

@@ -3,10 +3,10 @@
 @@ -1,7 +1,4 @@
  Illuminate\Container\Container {
 -  #resolved: array:1 [
--    "Glhd\LaravelDumper\Tests\CasterTest" => true
+-    "Captenmasin\LaravelDumper\Tests\CasterTest" => true
 -  ]
    #bindings: array:1 [
-     "Glhd\LaravelDumper\Tests\CasterTest" => array:2 [
+     "Captenmasin\LaravelDumper\Tests\CasterTest" => array:2 [
        "concrete" => Closure() {
 @@ -13,16 +10,11 @@
        "shared" => false
@@ -16,17 +16,17 @@
 -  #instances: []
 -  #scopedInstances: []
    #aliases: array:1 [
-     "bar" => "Glhd\LaravelDumper\Tests\CasterTest"
+     "bar" => "Captenmasin\LaravelDumper\Tests\CasterTest"
    ]
 -  #abstractAliases: array:1 [
--    "Glhd\LaravelDumper\Tests\CasterTest" => array:1 [
+-    "Captenmasin\LaravelDumper\Tests\CasterTest" => array:1 [
 -      0 => "bar"
 -    ]
 +  #resolved: array:1 [
-+    "Glhd\LaravelDumper\Tests\CasterTest" => true
++    "Captenmasin\LaravelDumper\Tests\CasterTest" => true
    ]
    #extenders: array:1 [
-     "Glhd\LaravelDumper\Tests\CasterTest" => array:1 [
+     "Captenmasin\LaravelDumper\Tests\CasterTest" => array:1 [
 @@ -34,15 +26,5 @@
        }
      ]

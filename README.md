@@ -1,25 +1,25 @@
 <div style="float: right;">
-	<a href="https://github.com/glhd/laravel-dumper/actions" target="_blank">
+	<a href="https://github.com/captenmasin/laravel-dumper/actions" target="_blank">
 		<img 
-			src="https://github.com/glhd/laravel-dumper/workflows/PHPUnit/badge.svg" 
+			src="https://github.com/captenmasin/laravel-dumper/workflows/PHPUnit/badge.svg" 
 			alt="Build Status" 
 		/>
 	</a>
-	<a href="https://codeclimate.com/github/glhd/laravel-dumper/test_coverage" target="_blank">
+	<a href="https://codeclimate.com/github/captenmasin/laravel-dumper/test_coverage" target="_blank">
 		<img 
 			src="https://api.codeclimate.com/v1/badges/89d825bd1cba002b271c/test_coverage" 
 			alt="Coverage Status" 
 		/>
 	</a>
-	<a href="https://packagist.org/packages/glhd/laravel-dumper" target="_blank">
+	<a href="https://packagist.org/packages/captenmasin/laravel-dumper" target="_blank">
         <img 
-            src="https://poser.pugx.org/glhd/laravel-dumper/v/stable" 
+            src="https://poser.pugx.org/captenmasin/laravel-dumper/v/stable" 
             alt="Latest Stable Release" 
         />
 	</a>
 	<a href="./LICENSE" target="_blank">
         <img 
-            src="https://poser.pugx.org/glhd/laravel-dumper/license" 
+            src="https://poser.pugx.org/captenmasin/laravel-dumper/license" 
             alt="MIT Licensed" 
         />
     </a>
@@ -50,7 +50,7 @@ https://user-images.githubusercontent.com/21592/150163719-547ecd90-b029-4588-964
 Install as a dev dependency:
 
 ```shell
-# composer require glhd/laravel-dumper --dev
+# composer require captenmasin/laravel-dumper --dev
 ```
 
 ## Usage

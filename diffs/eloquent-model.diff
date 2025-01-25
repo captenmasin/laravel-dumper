@@ -1,7 +1,7 @@
 --- Before	2022-01-24 09:44:05.000000000 -0500
 +++ After	2022-01-24 09:44:05.000000000 -0500
 @@ -1,25 +1,28 @@
- Glhd\LaravelDumper\Tests\User {
+ Captenmasin\LaravelDumper\Tests\User {
 -  #guarded: []
 -  #connection: "testing"
 -  #table: "users"
@@ -30,7 +30,7 @@
 -    "created_at" => "2022-01-24 09:44:05"
 -    "id" => 1
 +  #relations: array:1 [
-+    "company" => Glhd\LaravelDumper\Tests\Company {
++    "company" => Captenmasin\LaravelDumper\Tests\Company {
 +      +"id": 1
 +      +"name": "Galahad"
 +      +"created_at": "2022-01-24 09:44:05"
@@ -60,7 +60,7 @@
 -  #dispatchesEvents: []
 -  #observables: []
 -  #relations: array:1 [
--    "company" => Glhd\LaravelDumper\Tests\Company {
+-    "company" => Captenmasin\LaravelDumper\Tests\Company {
 -      #guarded: []
 -      #connection: "testing"
 -      #table: "companies"

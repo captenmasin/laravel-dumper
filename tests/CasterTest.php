@@ -1,10 +1,10 @@
 <?php
 
-namespace Glhd\LaravelDumper\Tests;
+namespace Captenmasin\LaravelDumper\Tests;
 
 use Carbon\Carbon;
-use Glhd\LaravelDumper\Casters\Caster;
-use Glhd\LaravelDumper\Casters\CustomCaster;
+use Captenmasin\LaravelDumper\Casters\Caster;
+use Captenmasin\LaravelDumper\Casters\CustomCaster;
 use Illuminate\Container\Container;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

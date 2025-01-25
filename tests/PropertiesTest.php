@@ -1,9 +1,9 @@
 <?php
 
-namespace Glhd\LaravelDumper\Tests;
+namespace Captenmasin\LaravelDumper\Tests;
 
-use Glhd\LaravelDumper\Support\Key;
-use Glhd\LaravelDumper\Support\Properties;
+use Captenmasin\LaravelDumper\Support\Key;
+use Captenmasin\LaravelDumper\Support\Properties;
 use Illuminate\Support\Collection;
 use Symfony\Component\VarDumper\Caster\CutStub;
 

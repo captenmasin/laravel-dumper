@@ -1,9 +1,9 @@
 <?php
 
-namespace Glhd\LaravelDumper\Casters;
+namespace Captenmasin\LaravelDumper\Casters;
 
-use Glhd\LaravelDumper\Support\Key;
-use Glhd\LaravelDumper\Support\Properties;
+use Captenmasin\LaravelDumper\Support\Key;
+use Captenmasin\LaravelDumper\Support\Properties;
 use Symfony\Component\HttpFoundation\ParameterBag;
 use Symfony\Component\VarDumper\Cloner\Stub;
 
@@ -13,7 +13,7 @@ class ParameterBagCaster extends Caster
 	
 	/**
 	 * @param ParameterBag $target
-	 * @param \Glhd\LaravelDumper\Support\Properties $properties
+	 * @param \Captenmasin\LaravelDumper\Support\Properties $properties
 	 * @param \Symfony\Component\VarDumper\Cloner\Stub $stub
 	 * @param bool $is_nested
 	 * @param int $filter

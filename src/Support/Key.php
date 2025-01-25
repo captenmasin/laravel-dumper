@@ -1,6 +1,6 @@
 <?php
 
-namespace Glhd\LaravelDumper\Support;
+namespace Captenmasin\LaravelDumper\Support;
 
 use Symfony\Component\VarDumper\Caster\Caster;
 

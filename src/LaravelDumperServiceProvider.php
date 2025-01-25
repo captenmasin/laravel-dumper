@@ -1,6 +1,6 @@
 <?php
 
-namespace Glhd\LaravelDumper;
+namespace Captenmasin\LaravelDumper;
 
 use Illuminate\Support\ServiceProvider;
 

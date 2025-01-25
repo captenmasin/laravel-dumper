@@ -1,6 +1,6 @@
 <?php
 
-namespace Glhd\LaravelDumper\Support;
+namespace Captenmasin\LaravelDumper\Support;
 
 use Closure;
 use Illuminate\Support\Arr;
